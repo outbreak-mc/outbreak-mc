@@ -1,0 +1,73 @@
+@font-face {
+    font-family: BIOWEAPON;
+    src: url(../assets/fonts/BIOWEAPON.ttf);
+}
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(../assets/fonts/PressStart2P-Regular.ttf);
+}
+
+a.img-btn {
+    background: var(--bg);
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.7em;
+    border-radius: 1em;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: box-shadow .2s ease-in-out;
+}
+
+a.img-btn:hover, .social-cards a:hover {
+    box-shadow: 0 5px 20px #0000002c;
+    color: #ffffffb6;
+    outline: 2px solid #fff;
+}
+
+a.img-btn h1,
+a.img-btn p {
+    color: #fff;
+    margin: 0;
+}
+a.img-btn h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    background: linear-gradient(180deg, #FFF 0%, rgb(192, 192, 192) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.social-cards {
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.social-cards a {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr .1fr .1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 1em;
+    padding: 1.5em;
+    background: var(--bg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.social-cards a svg {
+    width: 3em;
+}
+.social-cards a p {
+    margin: 0;
+}
+.social-cards .sub {
+    font-size: .9em;
+    opacity: 80%;
+}

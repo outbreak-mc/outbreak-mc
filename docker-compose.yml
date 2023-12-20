@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+    mkdocs:
+        container_name: outbreak-docs
+        image: squidfunk/mkdocs-material:9.5
+        restart: unless-stopped
+        volumes:
+            - .:/docs
+        ports:
+            - '8001:8000'

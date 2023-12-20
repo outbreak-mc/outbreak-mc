@@ -1,0 +1,73 @@
+site_name: OUTBREAK
+site_url: https://outbreak-mc.github.io/
+
+extra_css:
+  - "stylesheets/extra.css"
+  - "stylesheets/index.css"
+
+theme:
+  logo: assets/images/classic_128.png
+  icon: assets/images/classic_128.png
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    # - toc.integrate
+    - navigation.table
+    # - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    primary: custom
+    scheme: slate
+    custom_dir: overrides
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/outbreak-mc
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/fhgkRff
+    - icon: fontawesome/brands/vk 
+      link: https://vk.com/outbreak_mc
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/icons
+
+nav:
+  - Главная: index.md
+
+  - Сборка модов:
+    - Главная: modpack/index.md
+    - Установка: modpack/installation.md
+    - Обзор сборки: modpack/review.md
+
+  - Правила проекта:
+    - Основное положение проекта: rules/index.md
+    - Примечания о работе персонала: rules/staff.md
