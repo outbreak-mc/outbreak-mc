@@ -8,6 +8,7 @@ extra_css:
 theme:
   logo: assets/images/classic_128.png
   icon: assets/images/classic_128.png
+  favicon: assets/images/classic_128.png
   name: material
   language: ru
   features:

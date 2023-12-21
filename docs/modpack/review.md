@@ -16,7 +16,7 @@
 <div class="modlist">
   <div>
     <img alt="Emotecraft" src="../../assets/modpack/logos/emotecraft.webp" />
-    <p><strong>Emotecraft</strong> - позволяет использовать различные анимации вашего персонажа и видеть анимации других игроков на серверах, где это поддерживается. В сборку уже включено множество эмоций из <a href="https://docs.google.com/document/d/1AK0w8M1_oZ3Z3VxoETT4QJ-OjVsP1AzqE0kHhSazymQ">SPEMOTES</a> и других открытых источников.</p>
+    <p><strong>Emotecraft</strong> - позволяет использовать различные анимации вашего персонажа и видеть анимации других игроков на серверах, где это поддерживается. В сборку уже включено множество эмоций из <a target="_blank" href="https://docs.google.com/document/d/1AK0w8M1_oZ3Z3VxoETT4QJ-OjVsP1AzqE0kHhSazymQ">SPEMOTES</a> и других открытых источников.</p>
   </div>
   <div>
     <img alt="Replay Mod" src="../../assets/modpack/logos/replaymod.webp" />

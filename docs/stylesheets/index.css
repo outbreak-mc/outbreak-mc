@@ -49,8 +49,9 @@ a.img-btn h1 {
 
 .social-cards a {
     text-align: center;
-    display: grid;
-    grid-template-rows: 1fr .1fr .1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -66,8 +67,4 @@ a.img-btn h1 {
 }
 .social-cards a p {
     margin: 0;
-}
-.social-cards .sub {
-    font-size: .9em;
-    opacity: 80%;
 }
