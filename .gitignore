@@ -46,7 +46,7 @@ __pycache__
 
 *.bat
 docs/assets/modpack/orig
-docs/assets/fonts
+docs/outbreaklib
 
 # -----------------------------------------------------------------------------
 # General
