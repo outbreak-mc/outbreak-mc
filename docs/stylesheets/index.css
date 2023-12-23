@@ -67,4 +67,14 @@ a.img-btn h1 {
 }
 .social-cards a p {
     margin: 0;
+    line-height: normal;
 }
+@media screen and (max-width:500px) {
+    .social-cards a {
+        padding: .8em .1em;
+    }
+
+    a.img-btn h1 {
+        font-size: 1.8em;
+    }
+  }
