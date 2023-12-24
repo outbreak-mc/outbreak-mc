@@ -144,6 +144,8 @@
     - Мод [C2ME](https://modrinth.com/mod/c2me-fabric) - улучшает производительность чанков.
     - Мод [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - улучшает логику отгрузки чанков.
     - Мод [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) - исправляет некоторые проблемы с оперативной памятью.
+    - Мод [ThreadTweak](https://modrinth.com/mod/threadtweak) - оптимизация работы с потоками CPU.
+    - Мод [ModernFix](https://modrinth.com/mod/modernfix) - пак разных фиксов и оптимизаций.
 
     Прочее:
 
