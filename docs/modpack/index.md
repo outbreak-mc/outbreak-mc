@@ -128,6 +128,23 @@
 
 Скачать иконку: [:outbreak-outbreak: logo.ico](../assets/modpack/download/logo.ico){:download="logo.ico"} 
 
+??? bug "Сейчас в разработке"
+
+    **Скачать:** Эта версия ещё не вышла. Здесь показаны промежуточные изменения, которые, вероятно, войдут в выпуск. Вы можете предложить свои изменения или попросить на тестирование промежуточную версию в [Discord](https://discord.gg/fhgkRff).
+
+    **Изменения:**
+
+    **Новое:**
+
+    - Мод [ItemSwapper](https://www.curseforge.com/minecraft/mc-mods/itemswapper), добавляющий удобные палитры предметов на ++r++, позволяющие мгновенно выбрать предмет, не заходя в инвентарь, а в творческом режиме - взять похожий по тематике предмет из палитры.
+
+    - Мод [Smooth Scrolling Refurbished](https://modrinth.com/mod/smooth-scrolling-refurbished) - плавная прокрутка в списках.
+
+
+    **Исправления, улучшения, обновления:**
+
+    - Исправлен неправильный порядок ресурспаков, из-за которого не работал тёмный фон.
+
 !!! warning "1.2.0-rc.2 (нестабильная версия)"
 
     **Скачать:** [OUTBREAK 1.2.0-rc.2.mrpack](https://drive.google.com/file/d/1dwY3hg2Bd95TMFzUT57I-Z-qju1-gvgc/view?usp=sharing){:target="_blank"}

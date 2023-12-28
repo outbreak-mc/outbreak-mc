@@ -4,6 +4,7 @@ site_url: https://outbreak-mc.github.io/
 extra_css:
   - "stylesheets/extra.css"
   - "stylesheets/index.css"
+  - "stylesheets/stars.css"
 
 theme:
   logo: assets/images/classic_128.png
@@ -11,6 +12,7 @@ theme:
   favicon: assets/images/classic_128.png
   name: material
   language: ru
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,7 +21,7 @@ theme:
     - navigation.instant.progress
     # - toc.integrate
     - navigation.table
-    # - navigation.indexes
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -28,7 +30,6 @@ theme:
   palette:
     primary: custom
     scheme: slate
-    custom_dir: overrides
 
 extra:
   social:
@@ -40,6 +41,9 @@ extra:
       link: https://vk.com/outbreak_mc
 
 markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -64,10 +68,14 @@ markdown_extensions:
 nav:
   - Главная: index.md
 
-  - Сборка модов:
-    - Главная: modpack/index.md
-    - Установка: modpack/installation.md
+  - Quality-of-Life сборка:
+    - modpack/index.md
+    - Установка Java: modpack/java-installation.md
+    - Установка Сборки: modpack/installation.md
     - Обзор сборки: modpack/review.md
+
+  - 🎄 MODBREAK-2024:
+    - MODBREAK-2024: modbreak2024/index.md
 
   - Правила проекта:
     - Основное положение проекта: rules/index.md
