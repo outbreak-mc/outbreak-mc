@@ -1,23 +1,5 @@
 {
     "files.exclude": {
-        // Python
-        "**/__pycache__": true,
-        "**/.venv": true,
-        "poetry.lock": true,
-        // JavaScript
-        // "**/node_modules": true,
-        // "**/package-lock.json": true,
-        // "**/package.json": true,
-        // Vue.js / Vite
-        "**/jsconfig.json": true,
-        "**/babel.config.js": true,
-        "**/.browserslistrc": true,
-        "**/.eslintrc.js": true,
-        // "**/vite.config.ts": true,
-        // TypeScript
-        "**/env.d.ts": true,
-        "**/tsconfig.config.json": true,
-        "**/tsconfig.json": true,
     },
     "python.analysis.typeCheckingMode": "basic",
     "editor.rulers": [
@@ -41,7 +23,7 @@
         "editor.formatOnSave": true,
         "editor.tabSize": 2,
     },
-    "[markdown]": {
+    "[markdown][yaml]": {
         "editor.tabSize": 2,
     },
     "editor.detectIndentation": false,
@@ -51,7 +33,6 @@
         "src/lib/i18n",
         "src/lib/i18n/locales"
     ],
-    // "typescript.inlayHints.parameterNames.enabled": "literals",
     "typescript.inlayHints.variableTypes.enabled": true,
     "i18n-ally.keystyle": "nested"
 }

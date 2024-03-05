@@ -29,7 +29,7 @@
   }
 
   .md-content {
-    max-width: 950px;
+    max-width: 1000px;
   }
 
   .md-main__inner {
@@ -61,7 +61,7 @@
 </div>
 
 <div class="about-container">
-  <p style="flex: 1;">Сервер OUTBREAK не работает круглосуточно. Вместо этого мы периодически открываемся на короткое время с различными событиями, как, например, сходка на BedWars, SkyWars или выживание с модами.
+  <p style="flex: 1; margin: 0; padding: 1em;" class="glass">Сервер OUTBREAK не работает круглосуточно. Вместо этого мы периодически открываемся на короткое время с различными событиями, как, например, сходка на BedWars, SkyWars или выживание с модами.
   <br />
   <br />
   Чтобы быть в курсе проходящих событий, заходите в наши соцсети и следите за мероприятиями!
@@ -104,13 +104,13 @@
 </div>
 
 
-<div class="grid cards our-stuff">
+<!-- <div class="grid cards our-stuff">
   <a class="img-btn" href="/modbreak2024/">
     <img class="footer-img" src="../../assets/modpack/modbreak2024/modbreakbg.webp">
     <h1 class="cool-outbreak-font">Новогоднее событие</h1>
     <p>Зимнее выживание на сервере с модами</p>
   </a>
-</div>
+</div> -->
 
 <div class="grid cards">
   <a class="img-btn" href="/modpack/">
@@ -120,7 +120,7 @@
   </a>
 </div>
 
-## Что нужно знать о нашем проекте
+<!-- ## Что нужно знать о нашем проекте -->
 
 <div class="grid cards align-link-down" markdown>
 

@@ -24,7 +24,8 @@
   font-weight: 100;
 }
 
-.grid.cards li {
+.grid.cards li,
+.glass {
   background: radial-gradient(181.7% 95.57% at 31.05% 66.18%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.03) 100%);
   box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
   border: 1px solid rgb(255 255 255 / 8%);
@@ -40,7 +41,6 @@
 
 div.md-header__title:not(.md-header__title--active) * {
   font-family: "BIOWEAPON", var(--md-text-font-family);
-  /* font-family: ; */
 }
 
 .md-typeset h2 {

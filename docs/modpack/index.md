@@ -128,7 +128,7 @@
 
 Скачать иконку: [:outbreak-outbreak: logo.ico](../assets/modpack/download/logo.ico){:download="logo.ico"} 
 
-??? bug "Сейчас в разработке"
+!!! bug "Сейчас в разработке"
 
     **Скачать:** Эта версия ещё не вышла. Здесь показаны промежуточные изменения, которые, вероятно, войдут в выпуск. Вы можете предложить свои изменения или попросить на тестирование промежуточную версию в [Discord](https://discord.gg/fhgkRff).
 
@@ -137,13 +137,24 @@
     **Новое:**
 
     - Мод [ItemSwapper](https://www.curseforge.com/minecraft/mc-mods/itemswapper), добавляющий удобные палитры предметов на ++r++, позволяющие мгновенно выбрать предмет, не заходя в инвентарь, а в творческом режиме - взять похожий по тематике предмет из палитры.
-
     - Мод [Smooth Scrolling Refurbished](https://modrinth.com/mod/smooth-scrolling-refurbished) - плавная прокрутка в списках.
+    - Мод [Screenshot Viewer](https://modrinth.com/mod/screenshot-viewer) - добавляет меню просмотра скриншотов.
+    - Мод [Armor Trim Item Fix](https://modrinth.com/mod/armor-trim-item-fix) - 
 
+    <div style="opacity: 60%" markdown>
+    **Добавлено, но [не активно](review.md#enabling-mods){:target="_blank"} по умолчанию:**
+
+    - Мод [Fabrishot](https://modrinth.com/mod/fabrishot) - создавайте скриншоты любого разрешения
+    - Мод [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) - главный мод для всех строителей - заполнение блоками, копирование, вставка и множество других функций.
+
+    </div>
 
     **Исправления, улучшения, обновления:**
 
+    - Удалён мод [C2ME](https://modrinth.com/mod/c2me-fabric). Всё-таки без него чанки грузятся лучше.
+    - Чат немного сдвинут вверх и больше не перекрывается иконками брони на узких мониторах.
     - Исправлен неправильный порядок ресурспаков, из-за которого не работал тёмный фон.
+    - Стало удобнее летать на элитрах: прицел теперь отображается, когда вы держите феерверк.
 
 !!! warning "1.2.0-rc.2 (нестабильная версия)"
 
