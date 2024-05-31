@@ -45,7 +45,7 @@ mkdocs_material.egg-info
 __pycache__
 
 *.bat
-docs/assets/modpack/orig
+docs/assets/orig
 docs/outbreaklib
 
 # -----------------------------------------------------------------------------

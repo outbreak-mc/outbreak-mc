@@ -68,7 +68,10 @@ markdown_extensions:
 nav:
   - Главная: index.md
 
-  # - SKYHIGH EVENT: skyhigh/index.md
+  - SKYHIGH EVENT: 
+    - Выбор мира: skyhigh/worlds.md
+    # - SKYHIGH EVENT: skyhigh/index.md
+    # - Установка сборки: skyhigh/skyhigh-join.md
 
   - Quality-of-Life сборка:
     - modpack/index.md

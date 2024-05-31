@@ -1,10 +1,10 @@
 # Сборка OUTBREAK
 
 <div class="icon-gallery centered">
-  <img alt="Fabric" src="../../assets/modpack/logos/fabric.webp" />
-  <img alt="Quilt" src="../../assets/modpack/logos/quilt.webp" />
-  <img alt="Sodium" src="../../assets/modpack/logos/sodium.webp" />
-  <img alt="Iris" src="../../assets/modpack/logos/iris.webp" />
+  <img alt="Fabric" src="/assets/modpack/logos/fabric.webp" />
+  <img alt="Quilt" src="/assets/modpack/logos/quilt.webp" />
+  <img alt="Sodium" src="/assets/modpack/logos/sodium.webp" />
+  <img alt="Iris" src="/assets/modpack/logos/iris.webp" />
 </div>
 
 Сборка построена на базе Fabric 1.20.1 с Sodium, Iris и Quilt и призвана сделать из клиента что-то более менее играбельное и добавить эстетики.
@@ -65,33 +65,25 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Панорама" src="../../assets/modpack/aesthetics/pano.webp">
+            <img alt="Панорама" src="/assets/modpack/aesthetics/pano.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Шалкеры" src="../../assets/modpack/aesthetics/shulkers.webp">
+            <img alt="Шалкеры" src="/assets/modpack/aesthetics/shulkers.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Взрывы" src="../../assets/modpack/aesthetics/epic.webp">
+            <img alt="Взрывы" src="/assets/modpack/aesthetics/epic.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Инструкция зельеварения" src="../../assets/modpack/gameplay/brewing-guide.webp">
-        </div>
-    </label>
-</div>
-<div class="grid cards">
-    <label class="zoomableimg">
-        <input type="checkbox">
-        <div>
-            <img alt="OwO" src="../../assets/modpack/aesthetics/ghast2-crop.webp">
+            <img alt="Инструкция зельеварения" src="/assets/modpack/gameplay/brewing-guide.webp">
         </div>
     </label>
 </div>
@@ -99,25 +91,33 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Better F3" src="../../assets/modpack/gameplay/f3.webp">
+            <img alt="OwO" src="/assets/modpack/aesthetics/ghast2-crop.webp">
+        </div>
+    </label>
+</div>
+<div class="grid cards">
+    <label class="zoomableimg">
+        <input type="checkbox">
+        <div>
+            <img alt="Better F3" src="/assets/modpack/gameplay/f3.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Улучшенный снег" src="../assets/modpack/aesthetics/particle-rain-snow.webp">
+            <img alt="Улучшенный снег" src="/assets/modpack/aesthetics/particle-rain-snow.webp">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Книги" src="../../assets/modpack/gameplay/books-crop.png">
+            <img alt="Книги" src="/assets/modpack/gameplay/books-crop.png">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Тыквы" src="../assets/modpack/aesthetics/pumpkins.webp">
+            <img alt="Тыквы" src="/assets/modpack/aesthetics/pumpkins.webp">
         </div>
     </label>
 </div>

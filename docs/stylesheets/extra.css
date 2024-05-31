@@ -223,3 +223,7 @@ div.md-header__title:not(.md-header__title--active) * {
   position: absolute;
   bottom: -1vh;
 }
+
+.md-typeset {
+  font-size: .7rem;
+}
